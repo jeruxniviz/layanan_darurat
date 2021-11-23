@@ -62,7 +62,7 @@ class _Pindahke3State extends State<Pindahke3> {
     return Timer(durasi, () {
       Navigator.pushReplacement(
           context, MaterialPageRoute(builder: (context) => Nav3()));
-      // Navigator.push(context, MaterialPageRoute(builder: (context) => Nav2()));
+      // Navigator.push(context, MaterialPageRoute(builder: (context) => Nav3()));
     });
   }
 
@@ -100,7 +100,7 @@ class _Pindahke1State extends State<Pindahke1> {
     return Timer(durasi, () {
       Navigator.pushReplacement(
           context, MaterialPageRoute(builder: (context) => Nav1()));
-      // Navigator.push(context, MaterialPageRoute(builder: (context) => Nav2()));
+      // Navigator.push(context, MaterialPageRoute(builder: (context) => Nav1()));
     });
   }
 

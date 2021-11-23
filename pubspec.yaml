@@ -25,8 +25,11 @@ dependencies:
   curved_navigation_bar: ^1.0.1
   flutter:
     sdk: flutter
+  flutter_launcher_icons: ^0.9.2
+  fluttertoast: ^8.0.8
   font_awesome_flutter: ^9.2.0
   google_fonts: ^2.1.0
+  url_launcher: ^6.0.9
 
 dev_dependencies:
   flutter_test:
@@ -68,6 +71,9 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
+  assets:
+    - images/
+
   fonts:
     - family: BebasNeue
       fonts:
@@ -81,3 +87,8 @@ flutter:
     - family: BowlbyOneSC
       fonts:
         - asset: fonts/bowlby/BowlbyOneSC-Regular.ttf
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "images/logo.png"
