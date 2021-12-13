@@ -4,7 +4,8 @@ import 'package:layanan_darurat/splash.dart';
 
 void main() {
   SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle(
-      statusBarColor: Colors.white, systemNavigationBarColor: Colors.white));
+    statusBarColor: Colors.white,
+  ));
   runApp(MyApp());
 }
 
