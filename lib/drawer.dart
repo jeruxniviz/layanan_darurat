@@ -176,34 +176,50 @@ class _SkState extends State<Sk> {
               Divider(
                 color: Colors.white,
               ),
-              Text(
-                "A. Anda secara tegas memahami dan menyetujui bahwa penggunaan Anda atas aplikasi adalah atas kebijakan dan risiko Anda sendiri dan bahwa aplikasi tersebut disediakan apa adanya dan tersedia tanpa jaminan dalam bentuk apa pun. ",
-                style: GoogleFonts.basic(fontSize: 16, color: Colors.white),
-              ),
-              Divider(),
-              Text(
-                "B. Anda bertanggung jawab penuh atas segala kerusakan pada perangkat seluler Anda, atau perangkat lain, atau kehilangan data yang diakibatkan oleh penggunaan tersebut. ",
-                style: GoogleFonts.basic(fontSize: 16, color: Colors.white),
-              ),
-              Divider(),
-              Text(
-                "C. Penulis secara tegas menyangkal semua jaminan dan kondisi apapun, baik tersurat maupun tersirat, termasuk, namun tidak terbatas pada jaminan tersirat dan kondisi kesesuaian untuk tujuan tertentu.",
-                style: GoogleFonts.basic(fontSize: 16, color: Colors.white),
-              ),
-              Divider(),
-              Text(
-                "A. You expressly understand and agree that your use of the application is at your sole discretion and risk and that the application is provided as is and as available without warranty of any kind. ",
-                style: GoogleFonts.basic(fontSize: 16, color: Colors.white),
-              ),
-              Divider(),
-              Text(
-                "B. You are solely responsible for any damage to your mobile device, or other device, or loss of data that results from such use. ",
-                style: GoogleFonts.basic(fontSize: 16, color: Colors.white),
-              ),
-              Divider(),
-              Text(
-                "C. The authtor further expressly disclaims all warranties and conditions of any kind, whether express or implied, including, but not limited to the implied warranties and conditions of fitness for a particular purpose.",
-                style: GoogleFonts.basic(fontSize: 16, color: Colors.white),
+              Container(
+                padding: EdgeInsets.all(10),
+                child: Column(
+                  children: [
+                    Text(
+                      "A. Anda secara tegas memahami dan menyetujui bahwa penggunaan Anda atas aplikasi adalah atas kebijakan dan risiko Anda sendiri dan bahwa aplikasi tersebut disediakan apa adanya dan tersedia tanpa jaminan dalam bentuk apa pun. ",
+                      style:
+                          GoogleFonts.basic(fontSize: 16, color: Colors.white),
+                    ),
+                    Divider(),
+                    Text(
+                      "B. Anda bertanggung jawab penuh atas segala kerusakan pada perangkat seluler Anda, atau perangkat lain, atau kehilangan data yang diakibatkan oleh penggunaan tersebut. ",
+                      style:
+                          GoogleFonts.basic(fontSize: 16, color: Colors.white),
+                    ),
+                    Divider(),
+                    Text(
+                      "C. Penulis secara tegas menyangkal semua jaminan dan kondisi apapun, baik tersurat maupun tersirat, termasuk, namun tidak terbatas pada jaminan tersirat dan kondisi kesesuaian untuk tujuan tertentu.",
+                      style:
+                          GoogleFonts.basic(fontSize: 16, color: Colors.white),
+                    ),
+                    Divider(
+                      height: 3,
+                      color: Colors.white,
+                    ),
+                    Text(
+                      "A. You expressly understand and agree that your use of the application is at your sole discretion and risk and that the application is provided as is and as available without warranty of any kind. ",
+                      style:
+                          GoogleFonts.basic(fontSize: 16, color: Colors.white),
+                    ),
+                    Divider(),
+                    Text(
+                      "B. You are solely responsible for any damage to your mobile device, or other device, or loss of data that results from such use. ",
+                      style:
+                          GoogleFonts.basic(fontSize: 16, color: Colors.white),
+                    ),
+                    Divider(),
+                    Text(
+                      "C. The authtor further expressly disclaims all warranties and conditions of any kind, whether express or implied, including, but not limited to the implied warranties and conditions of fitness for a particular purpose.",
+                      style:
+                          GoogleFonts.basic(fontSize: 16, color: Colors.white),
+                    ),
+                  ],
+                ),
               ),
               Divider(),
             ],
