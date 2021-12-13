@@ -19,15 +19,18 @@ class _DaruratLainState extends State<DaruratLain> {
     return Scaffold(
       backgroundColor: Colors.black,
       appBar: AppBar(
+        backgroundColor: Colors.white,
         centerTitle: true,
         leading: IconButton(
-            onPressed: () {
-              Navigator.pop(context);
-            },
-            icon: Icon(Icons.arrow_back_ios)),
+          onPressed: () {
+            Navigator.pop(context);
+          },
+          icon: Icon(Icons.arrow_back_ios),
+          color: Colors.black,
+        ),
         title: Text(
           "Telepon Darurat Lain",
-          style: GoogleFonts.bangers(),
+          style: GoogleFonts.bangers(color: Colors.black),
         ),
       ),
       body: ListView(
@@ -93,7 +96,7 @@ class _DaruratLainState extends State<DaruratLain> {
                                         children: [
                                           Icon(Icons.phone),
                                           Text(
-                                            "     Panggil",
+                                            "     Hubungi 115",
                                             style: GoogleFonts.basic(),
                                           ),
                                         ],
@@ -166,7 +169,7 @@ class _DaruratLainState extends State<DaruratLain> {
                                         children: [
                                           Icon(Icons.phone),
                                           Text(
-                                            "     Panggil",
+                                            "     Hubungi 129",
                                             style: GoogleFonts.basic(),
                                           ),
                                         ],
@@ -239,7 +242,7 @@ class _DaruratLainState extends State<DaruratLain> {
                                         children: [
                                           Icon(Icons.phone),
                                           Text(
-                                            "     Panggil",
+                                            "     Hubungi 123",
                                             style: GoogleFonts.basic(),
                                           ),
                                         ],
@@ -312,7 +315,7 @@ class _DaruratLainState extends State<DaruratLain> {
                                         children: [
                                           Icon(Icons.phone),
                                           Text(
-                                            "     Panggil",
+                                            "     Hubungi 112",
                                             style: GoogleFonts.basic(),
                                           ),
                                         ],
